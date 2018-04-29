@@ -1,0 +1,6 @@
+TECH STACK:
+
+FRONTEND: cofee.js, react.js, JQuery, Bootstrap, Aureli, ember, web3js
+BACKEND: node.js, expressjs, MongoDB
+
+BlockChain: Solidity, on ethereum
