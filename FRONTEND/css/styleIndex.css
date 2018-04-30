@@ -1,0 +1,13 @@
+@font-face {
+    font-family: dacasaF;
+    src: url("fonts/dacasa/dacasa.ttf");
+}
+body{
+    background-image: url("img/bg1.jpg");
+    max-width: 100% !important;
+    height: 100%;
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family:"DejaVu Serif";
+}
