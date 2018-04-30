@@ -2,13 +2,16 @@
     font-family: dacasaF;
     src: url("fonts/dacasa/dacasa.ttf");
 }
-body{
+
+@import  url(https://fonts.googleapis.com/css?family=Montserrat);
+
+body {
     background-image: url("img/bg1.jpg");
-    background-size: cover ;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-
 }
+
 
 #head1{
     /*font-family: 'Pacifico', cursive;*/
