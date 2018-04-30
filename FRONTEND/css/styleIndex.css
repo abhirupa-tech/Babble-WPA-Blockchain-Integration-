@@ -4,10 +4,17 @@
 }
 body{
     background-image: url("img/bg1.jpg");
-    max-width: 100% !important;
-    height: 100%;
     background-size: cover ;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-family:"DejaVu Serif";
+
+}
+
+#head1{
+    /*font-family: 'Pacifico', cursive;*/
+    font-family: 'Dawning of a New Day', cursive;
+    /*font-family: 'Barrio', cursive;*/
+    font-size: 20vh;
+    color: whitesmoke;
+    text-shadow: 4px 4px 4px darkslategrey;
 }
