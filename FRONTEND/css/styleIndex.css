@@ -6,18 +6,33 @@
 @import  url(https://fonts.googleapis.com/css?family=Montserrat);
 
 body {
-    background-image: url("img/bg1.jpg");
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-image: url("img/bg2.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
+.card{
+    background-color: rgba(255,255,0,0.2 ); !important;
+}
+
 
 #head1{
     /*font-family: 'Pacifico', cursive;*/
-    font-family: 'Dawning of a New Day', cursive;
+    /*font-family: 'Dawning of a New Day', cursive;*/
     /*font-family: 'Barrio', cursive;*/
+    /*font-family: 'Syncopate', sans-serif;*/
+    /*font-family: 'Spirax', cursive;*/
+    font-family: 'Kranky', cursive;
+    /*font-family: 'Montserrat', sans-serif;*/
     font-size: 20vh;
     color: whitesmoke;
     text-shadow: 4px 4px 4px darkslategrey;
 }
+
+
+/*codepen tagged css*/
