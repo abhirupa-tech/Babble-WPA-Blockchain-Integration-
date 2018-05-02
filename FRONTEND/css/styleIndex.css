@@ -17,6 +17,7 @@ body {
 }
 
 .card{
+    margin-top: 50px;
     margin-right: 90px;
     background-color: rgba(0,0,0,0.5 ); !important;
     width:60%;
@@ -26,7 +27,22 @@ body {
        font-size:5vh;
        color:yellow !important;
 }
-
+.tabs .indicator {
+    position: absolute;
+    bottom: 0;
+    height: 2px;
+    background-color: #efa317!important;
+    color: yellow !important;
+}
+.tabs .tab a:hover, .tabs .tab a.active , .tabs .tab a{
+    background-color: rgba(0,0,0,0.6 )!important;
+    color: #e4ef06 !important;
+    font-size:2.6vh;
+}
+.card-tabs{
+    font-family: 'Montserrat', sans-serif;
+    color:yellow !important;
+}
 .card-content{
     font-family: 'Montserrat', sans-serif;
     font-size:3vh;
