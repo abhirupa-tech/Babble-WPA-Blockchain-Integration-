@@ -52,6 +52,21 @@ body {
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
     color: yellow !important;
 }
+.parallelogram {
+    width: 80vh;
+    height: 20vh;
+    position: relative;
+    z-index: -100;
+    margin-top: 10vh;
+    margin-left: 18vh;
+    transform: skew(20deg);
+    background: rgba(255, 255, 0 ,0.3);
+}
+.rectangle {
+    width: 80vh;
+    height: 20vh;
+    background-color: #555;
+}
 
 #head1{
     /*font-family: 'Pacifico', cursive;*/
@@ -60,7 +75,8 @@ body {
     /*font-family: 'Syncopate', sans-serif;*/
     /*font-family: 'Spirax', cursive;*/
     font-family: 'Kranky', cursive;
-
+    margin-top: -22vh;
+    margin-left: 14vh;
     font-size: 15vh;
     color: whitesmoke;
     text-shadow: 4px 4px 4px darkslategrey;
