@@ -17,9 +17,25 @@ body {
 }
 
 .card{
-    background-color: rgba(255,255,0,0.2 ); !important;
+    margin-right: 90px;
+    background-color: rgba(0,0,0,0.5 ); !important;
+    width:60%;
+}
+#login, #sign{
+       font-family: 'Montserrat', sans-serif;
+       font-size:5vh;
+       color:yellow !important;
 }
 
+.card-content{
+    font-family: 'Montserrat', sans-serif;
+    font-size:3vh;
+    text-align: center;
+    color:yellow !important;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: yellow !important;
+}
 
 #head1{
     /*font-family: 'Pacifico', cursive;*/
@@ -28,8 +44,8 @@ body {
     /*font-family: 'Syncopate', sans-serif;*/
     /*font-family: 'Spirax', cursive;*/
     font-family: 'Kranky', cursive;
-    /*font-family: 'Montserrat', sans-serif;*/
-    font-size: 20vh;
+
+    font-size: 15vh;
     color: whitesmoke;
     text-shadow: 4px 4px 4px darkslategrey;
 }
