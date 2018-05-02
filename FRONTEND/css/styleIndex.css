@@ -57,15 +57,19 @@ body {
     height: 20vh;
     position: relative;
     z-index: -100;
-    margin-top: 10vh;
+    margin-top: -18vh;
     margin-left: 18vh;
-    transform: skew(20deg);
-    background: rgba(255, 255, 0 ,0.3);
+    transform: skew(50deg);
+    background: rgba(255, 255, 0 ,0.26);
 }
 .rectangle {
     width: 80vh;
-    height: 20vh;
-    background-color: #555;
+    height: 16vh;
+    position: relative;
+    z-index: -100;
+    margin-left: 18vh;
+    margin-top: 10vh;
+    background-color: rgba(239, 72, 29, 0.3);
 }
 
 #head1{
