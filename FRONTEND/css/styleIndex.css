@@ -20,7 +20,7 @@ body {
     margin-top: 50px;
     margin-right: 90px;
     background-color: rgba(0,0,0,0.5 ); !important;
-    width:60%;
+    width:70%;
 }
 #login, #sign{
        font-family: 'Montserrat', sans-serif;
@@ -33,11 +33,15 @@ body {
     height: 2px;
     background-color: #efa317!important;
     color: yellow !important;
+    text-decoration: none !important;
+    overflow-x: hidden;
 }
 .tabs .tab a:hover, .tabs .tab a.active , .tabs .tab a{
     background-color: rgba(0,0,0,0.6 )!important;
     color: #e4ef06 !important;
     font-size:2.6vh;
+    text-decoration: none !important;
+    overflow-x: hidden;
 }
 .card-tabs{
     font-family: 'Montserrat', sans-serif;
