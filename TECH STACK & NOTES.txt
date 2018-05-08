@@ -1,6 +1,27 @@
 TECH STACK:
 
-FRONTEND: cofee.js, react.js, JQuery, Bootstrap, Aureli, ember, web3js
+FRONTEND: coffee.js, react.js, JQuery, Bootstrap,  ember, web3js
 BACKEND: node.js, expressjs, MongoDB
 
 BlockChain: Solidity, on ethereum
+
+
+APPROXIMATE SCHEDULE:
+
+First 3 weeks of May: 
+-Complete frontend
+-Study react, and PWA free course on Udacity
+-Host server locally
+
+Last week of May
+-Start with Backend
+-Do JS implementation
+
+First week of June- Complete all courses on blockchain from cryptozombies
+-Start backend by studying node and expressjs
+
+Next 2 weeks of june:
+-Do backend
+
+Last week of June: Integrate web app with frontend
+
