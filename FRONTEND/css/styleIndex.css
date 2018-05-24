@@ -32,6 +32,37 @@ body {
     background-color: rgba(221, 221, 221, 0.2   ); !important;
 
 }
+
+#loginHead{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+    margin-top:3vh;
+    color: #585757 !important;
+}
+#icon{
+    font-size: 6vh;
+    margin-top: 2vh;
+}
+
+#fbIcon,#GoogleIcon, #TwitterIcon, #GitIcon{
+    padding:3vh;
+}
+#fbIcon{
+    color: #3b5998;
+}
+#TwitterIcon{
+    color: #1DA1F2;
+}
+#GoogleIcon{
+    color:#db4437;
+}
+#GitIcon{
+  color:dimgrey;
+}
+#fbIcon:hover,#GoogleIcon:hover, #TwitterIcon:hover, #GitIcon:hover {
+    cursor: pointer;
+    color:black;
+}
 #login, #sign{
        font-family: 'Montserrat', sans-serif;
        font-size:5vh;
