@@ -10,22 +10,32 @@ body {
 
     /* Center and scale the image nicely */
     background-position: center;
-    background-image: url("img/bg2.jpg");
+    background-image: url("img/bg3.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
-.card{
-    margin-top: 50px;
-    margin-right: 90px;
+#main{
     background-color: rgba(0,0,0,0.5 ); !important;
-    width:70%;
+    margin-top: 50px;
+    margin-left:40px;
+    margin-right:40px;
+    padding:none;
+    height: 90vh;
+}
+.card{
+    background:transparent; !important;
+    border-color: black;
+    opacity: 0.7;
+    margin:5vh;
+    height: 80vh;
+    background-color: rgba(221, 221, 221, 0.2   ); !important;
+
 }
 #login, #sign{
        font-family: 'Montserrat', sans-serif;
        font-size:5vh;
-       color:yellow !important;
+       color: #000000 !important;
 }
 .tabs .indicator {
     position: absolute;
@@ -45,7 +55,7 @@ body {
 }
 .card-tabs{
     font-family: 'Montserrat', sans-serif;
-    color:yellow !important;
+    color: #9f753b !important;
 }
 .card-content{
     font-family: 'Montserrat', sans-serif;
@@ -54,26 +64,11 @@ body {
     color:yellow !important;
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color: yellow !important;
+    color: #a8a5a5 !important;
 }
-.parallelogram {
-    width: 80vh;
-    height: 20vh;
-    position: relative;
-    z-index: -100;
-    margin-top: -18vh;
-    margin-left: 18vh;
-    transform: skew(50deg);
-    background: rgba(255, 255, 0 ,0.26);
-}
-.rectangle {
-    width: 80vh;
-    height: 16vh;
-    position: relative;
-    z-index: -100;
-    margin-left: 18vh;
-    margin-top: 10vh;
-    background-color: rgba(239, 72, 29, 0.3);
+
+#alternateLogin{
+    background-color: rgba(255, 255, 255); !important;
 }
 
 #head1{

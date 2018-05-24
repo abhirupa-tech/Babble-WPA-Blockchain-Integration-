@@ -1,27 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Kranky|Montserrat:100|Spirax|Syncopate" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link rel="stylesheet" href="css/styleIndex.css">
+
 </head>
 
 <body>
-<div class="container-fluid">
+
+
+<div class="container-fluid " id="main">
+
     <div class="row">
-
-        <div class="col-sm-6">
-            <div class="rectangle"></div>
-            <div class="parallelogram"></div>
-            <div class="triangle"></div>
-            <div class="triangle1"></div>
-            <div id="head1" align="middle"><b>Smiley</b></div>
-            TRENDING USERS AND SMILES<br>
-
-        </div>
-    <div class="col-sm-6" align="right">
+        <div class="col-sm-6" align="middle">
         <div class="card">
             <div class="card-content">
                 <p><b>Now Be a part of a global phenomenon, join the world's largest community of positivity. We connect, we smile.</b></p>
@@ -47,9 +40,7 @@
                             <div class="form-group">
                                 <input type="password" placeholder="Re-Enter Password" class="form-control" id="pwd">
                             </div>
-                            <div class="checkbox">
-                                <label><input type="checkbox">Remember me</label>
-                            </div>
+
                             <button type="submit" class="btn btn-default">Submit</button>
                         </form>
                 </div>
@@ -61,15 +52,20 @@
                         <div class="form-group">
                             <input type="password" placeholder="Password" class="form-control" id="pwd">
                         </div>
-                        <div class="checkbox">
-                            <label><input type="checkbox">Remember me</label>
-                        </div>
                         <button type="submit" class="btn btn-default">Submit</button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+        <div class="col-sm-6" id="alternateLogin">
+            <div id="loginHead" align="middle">
+                You can also signup through:
+            </div>
+            <div id="fbIcon">Facebook</div>
+            <div id="GoogleIcon">Google Plus</div>
+            <div id="TwitterIcon">Twitter</div>
+        </div>
     </div>
 </div>
 

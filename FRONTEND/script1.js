@@ -1,3 +1,7 @@
+$(document).ready(function(){
+    $('.sidenav').sidenav();
+});
+
 $(function() {
     $(".btn").click(function() {
         $(".form-signin").toggleClass("form-signin-left");
@@ -30,3 +34,4 @@ $(function() {
         $(".forgot").toggleClass("forgot-fade");
     });
 });
+
