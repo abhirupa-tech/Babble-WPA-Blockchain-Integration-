@@ -1,0 +1,42 @@
+body {
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-image: url("img/bg3b.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#head_main{
+    font-family: 'Kranky', cursive !important;
+    font-size: 15vh;
+}
+.c0{
+    background-color: rgba(242, 242, 242, 0.5);
+    /*box-shadow:2px 2px grey;*/
+    border-radius:10px;
+    width:35%;
+    padding-bottom: 10vh;
+    margin-top: 20vh;
+    padding-top:5vh;
+}
+#btn_main{
+    margin-top:10vh;
+    border-radius: 10px;
+    border-color: #000000 !important;
+    font-size:3vh;
+    width: 15vh;
+    background-color: transparent;
+    padding:1vh !important;
+    color: #000000;
+    font-weight:bold;
+    font-family: 'Montserrat', sans-serif;
+    border-width: 0.5px !important;
+    width:40vh;
+}
+
+#btn_main:hover{
+    background-color: rgba(141, 141, 141, 0.5);
+    cursor:pointer;
+}

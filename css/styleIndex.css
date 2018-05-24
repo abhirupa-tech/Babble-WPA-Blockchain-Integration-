@@ -10,7 +10,7 @@ body {
 
     /* Center and scale the image nicely */
     background-position: center;
-    background-image: url("img/bg3.jpg");
+    background-image: url("img/bg3a.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -37,7 +37,22 @@ body {
     background-color: rgba(221, 221, 221, 0.2   ); !important;
 
 }
-
+#submit, #submit0{
+    border-radius: 50px;
+    border-color: #d3d34f !important;
+    font-size:2vh;
+    width: 15vh;
+    background-color: rgba(193, 193, 193, 0.6);
+    padding:1vh !important;
+    font-weight: bold;
+    color:white;
+    border-width: 2px !important;
+}
+#submit:hover, #submit0:hover{
+    background-color: rgba(225, 225, 225, 0.8);
+    font-weight: bolder;
+    color:black;
+}
 #loginHead{
     font-family: 'Montserrat', sans-serif;
     font-size: 3vh;
