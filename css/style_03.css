@@ -1,0 +1,26 @@
+body {
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-image: url("img/bg3a.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.nav1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+    font-weight: bold;
+    background-color: rgba(255,255,255,0.7) !important;
+    color: black;
+    padding-right: 10px; !important;
+    padding-bottom: 1px;  !important;
+
+}
+#i1{
+    height: 50px;
+    width: 50px;
+}
