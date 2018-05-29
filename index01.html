@@ -44,7 +44,7 @@
                                 <input type="password" placeholder="Re-Enter Password" class="form-control" id="pwd">
                             </div>
 
-                            <button type="submit" id="submit0">Submit</button>
+                            <div class="sub"><button type="submit" id="submit0" >Submit</button></div>
                         </form>
                 </div>
                 <div id="login">
@@ -55,7 +55,7 @@
                         <div class="form-group">
                             <input type="password" placeholder="Password" class="form-control" id="pwd">
                         </div>
-                        <button type="submit" id="submit">Submit</button>
+                        <div class="sub"><button type="submit" id="submit" class="sub">Submit</button></div>
                     </form>
                 </div>
             </div>
@@ -90,6 +90,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-
+    <script>
+        $(".sub").click(function(){
+            window.location.href= "index3.html";
+            console.log("Navigating");
+        });
+    </script>
 
 </body>

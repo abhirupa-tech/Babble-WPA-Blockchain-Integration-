@@ -27,11 +27,28 @@ body {
 #you_may_know, #freq_contact{
     background-color: rgba(255,255,255,0.9) !important;
     margin:2vh;
-    height: 80vh;
+}
+
+#searchBox1{
+    padding-top: 2vh !important;
+}
+#tag1{
+    margin-left: 5vh;
 }
 #tag1,#tag2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5vh;
     font-weight: bold;
     color: black;
+    padding-top: 2vh;
+}
+
+/*Media queries*/
+@media only screen
+and (max-device-width : 700px)
+{
+    #you_may_know, #freq_contact{
+        margin-left: 2vh;!important;
+        margin-right:2vh; !important;
+    }
 }
