@@ -3,6 +3,9 @@
 <head>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Kranky|Montserrat:100|Spirax|Syncopate" rel="stylesheet">
@@ -13,88 +16,64 @@
 
 <body>
 
-<div class="container-fluid" align="middle">
-<div class="container" id="main" align="middle">
-
-    <div class="row">
-        <div class="col-sm-6" align="middle">
-        <div class="card">
-            <div class="card-content">
-                <p><b>Now Be a part of a global phenomenon, join the world's largest community of positivity. We connect, we smile.</b></p>
-            </div>
-            <div class="card-tabs">
-                <ul class="tabs tabs-fixed-width">
-                    <li class="tab"><a class="active" href="#sign">SIGN UP</a></li>
-                    <li class="tab"><a href="#login">LOGIN</a></li>
-                </ul>
-            </div>
-            <div class="card-content">
-                <div id="sign">
-                        <form >
-                            <div class="form-group">
-                                <input type="email" placeholder="Email ID" class="form-control" id="mail">
-                            </div>
-                            <div class="form-group">
-                                <input type="text" placeholder="Username" class="form-control" id="name">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" placeholder="Password" class="form-control" id="pwd">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" placeholder="Re-Enter Password" class="form-control" id="pwd">
-                            </div>
-
-                            <div class="sub"><a href="index3.html"><button type="submit" id="submit0" >Submit</button></a></div>
-                        </form>
+    <div class="container-fluid" align="middle">
+    <div class="container" id="main" align="middle">
+                <div class="card-content">
+                    <div id="appName"><img class="img-responsive " id="i1"  src="css/img/logo1.png"></div><hr>
+                    <p><b>Now Be a part of a global phenomenon, join the world's largest community of positivity.</b></p>
                 </div>
-                <div id="login">
-                    <form >
-                        <div class="form-group">
-                            <input type="text" placeholder="Username" class="form-control" id="name">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" placeholder="Password" class="form-control" id="pwd">
-                        </div>
-                        <div class="sub"><a href="index3.html"><button type="submit" id="submit" class="sub">Submit</button></a></div>
-                    </form>
+                <form id="formSignup">
+                    <div class="form-group">
+                        <input type="email" placeholder="Email ID" class="form-control" id="mail">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Username" class="form-control" id="name">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Password" class="form-control" id="pwd">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Re-Enter Password" class="form-control" id="pwd">
+                    </div>
+                    <div class="sub"><button type="submit" id="submit0" href="index3.html">Submit</button></div>
+                </form>
+
+
+
+
+                <div id="loginHead" align="middle">
+                    <b>You can also sign up through:</b>
                 </div>
-            </div>
+                <div id="icon">
+                    <a id="fbIcon"><i class="fa fa-facebook-official"></i></a>
+                    <a id="GoogleIcon"><i class="fa fa-google-plus-square"></i></a>
+                    <a id="TwitterIcon"><i class="fa fa-twitter"></i></a>
+                    <a id="GitIcon"><i class="fa fa-github"></i></a>
+                </div>
+
+                <p><button class="btn0" id="b1" href="/">Know More</button></p>
+                <p><button class="btn0" id="b2" href="/">Collaborate</button></p>
+                <p><button class="btn0" id="b3" href="/">Meet The Team</button></p>
+                <p><button class="btn0" id="b4" href="/">Fork Me</button></p>
+
         </div>
-    </div>
-        <div class="col-sm-6" id="alternateLogin">
-            <div id="appName"><h1>Babble</h1></div><hr>
-            <div id="loginHead" align="middle">
-                <b>You can also sign up through:</b>
-            </div>
-            <div id="icon">
-                <a id="fbIcon"><i class="fa fa-facebook-official"></i></a>
-                <a id="GoogleIcon"><i class="fa fa-google-plus-square"></i></a>
-                <a id="TwitterIcon"><i class="fa fa-twitter"></i></a>
-                <a id="GitIcon"><i class="fa fa-github"></i></a>
-            </div>
 
-            <p><button class="btn0" id="b1" href="/">Know More</button></p>
-            <p><button class="btn0" id="b2" href="/">Collaborate</button></p>
-            <p><button class="btn0" id="b3" href="/">Meet The Team</button></p>
-            <p><button class="btn0" id="b4" href="/">Fork Me</button></p>
+
 
     </div>
-</div>
 
-
-</div>
-
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script>
         $(".sub").click(function(){
             window.location.href= "index3.html";
             console.log("Navigating");
         });
     </script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
 
 </body>
