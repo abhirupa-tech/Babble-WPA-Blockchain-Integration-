@@ -16,17 +16,24 @@ body {
     background-attachment: fixed;
 }
 #appName{
-
     font-family: 'Kranky', cursive;
+    font-size: 3vh !important;
 }
 
 #main{
     background-color: rgba(0,0,0,0.5 ); !important;
-    margin-top: 50px;
+    width:80vh;
     margin-left:40px;
     margin-right:40px;
     padding:none;
-    height: 90vh;
+    height: 100% !important;
+}
+.nav-item{
+    color: navajowhite !important;
+}
+.nav-item:hover{
+    border: none!important;
+    color: #db9a47 !important;
 }
 .card{
     background:transparent; !important;
@@ -38,33 +45,55 @@ body {
 
 }
 #i1{
-    height:20vh;
+    height:15vh;
     width:auto;
 }
+
 #formSignup{
-    margin-top: 10vh;
+    padding: 3vh;
+    padding-top: 4vh;
+    border-radius: 2px;
+    margin-top: 3vh;
+    width:60vh;
 }
+
+#formLogin{
+    padding: 3vh;
+    padding-top: 4vh;
+    border-radius: 2px;
+    margin-top: 3vh;
+    width:60vh;
+}
+.form-control{
+    margin-bottom: 3vh;
+    padding: 1vh;
+    border-radius: 20px !important;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
 #submit, #submit0{
     border-radius: 50px;
     border-color: #d3d34f !important;
     font-size:2vh;
     width: 15vh;
-    background-color: rgba(193, 193, 193, 0.6);
+    background-color: transparent !important;
     padding:1vh !important;
     font-weight: bold;
     color:white;
     border-width: 2px !important;
 }
 #submit:hover, #submit0:hover{
-    background-color: rgba(225, 225, 225, 0.8);
+    cursor: pointer;
+
+    background-color: rgba(68, 68, 68, 0.5) !important;
     font-weight: bolder;
     color:black;
 }
 #loginHead{
     font-family: 'Montserrat', sans-serif;
-    font-size: 3vh;
+    font-size: 2vh;
     margin-top:7vh;
-    color: #585757 !important;
+    color: #f6f4f4 !important;
 }
 #icon{
     font-size: 6vh;
