@@ -45,7 +45,7 @@
             <div class="sub"><button type="submit" id="submit0" onclick="return signUp()">Submit</button></div>
         </form>
         <div id="loginHead" align="middle">
-            <b>Or sign up through:</b>
+            <b>Or sign in with:</b>
         </div>
         <div id="icon">
             <a id="fbIcon"><i class="fa fa-facebook-official"></i></a>
@@ -65,8 +65,17 @@
             <div class="form-group">
                 <input type="password" placeholder="Password" class="form-control" id="pwd">
             </div>
-            <button id="submit1" onclick="return login()" >Login</button>
+            <button id="submit" onclick="return login()" >Login</button>
         </form>
+        <div id="loginHead" align="middle">
+            <b>Or sign in with:</b>
+        </div>
+        <div id="icon">
+            <a id="fbIcon"><i class="fa fa-facebook-official"></i></a>
+            <a id="GoogleIcon" onclick="return googleLogin()"><i class="fa fa-google-plus-square"></i></a>
+            <a id="TwitterIcon"><i class="fa fa-twitter"></i></a>
+            <a id="GitIcon"><i class="fa fa-github"></i></a>
+        </div>
     </div>
 
 

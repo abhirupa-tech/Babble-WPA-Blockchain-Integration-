@@ -9,3 +9,4 @@ var config = {
 };
 firebase.initializeApp(config);
 console.log("Firebase Initialized");
+
