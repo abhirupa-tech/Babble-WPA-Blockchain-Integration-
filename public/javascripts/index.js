@@ -36,6 +36,7 @@ function signUp(){
     return false;
 }
 
+$("#GoogleIcon").click(
 function googleLogin(){
 
 
@@ -75,6 +76,7 @@ function googleLogin(){
         var credential = error.credential;// The firebase.auth.AuthCredential type that was used.
 
     });
-    console.log("Logged in with Google");
+    console.log("Signed in with Google");
+    window.location= href("index3.html");
     return false;
-}
+});
