@@ -17,6 +17,7 @@ function login(){
         var errorMessage = error.message;
         alert("Error",errorCode,":",errorMessage);
     });
+    window.location = "index3.html";
     return false;
 }
 
