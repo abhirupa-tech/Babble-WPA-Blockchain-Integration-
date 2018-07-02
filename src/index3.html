@@ -36,9 +36,9 @@
 
 
 <!--Search Container-->
-<div class="container-fluid" id="cont_search">
+<div class="container-fluid main " id="cont_search">
 <div class="row">
-    <div class="col-sm-7" id="you_may_know">
+    <div class="col-sm-7" id="you_may_know" class="contLeft">
         <div id="searchBox1" align="middle">
             <form class="form-inline my-2 my-lg-0" >
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -49,12 +49,24 @@
         </div>
         <hr>
 
-        <div id="you_may_know_entries" align="middle">
+        <div id="you_may_know_entries" class="cont1" align="middle">
             #contacts appear here
         </div>
         <div id="chatbox">
             <div id="messageBox">
-                message goes here
+
+                <div id="messages">
+                    <span id="message-filler"> HEY</span>
+                </div>
+
+                <form id="message-form" action="#">
+                    <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label" >
+                        <input class="mdl-textfield__input"  type="text" id="msg" placeholder="Type">
+                    </div>
+                    <button id="submit" disabled type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
+                        Send
+                    </button>
+                </form>
             </div>
         </div>
     </div>

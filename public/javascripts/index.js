@@ -33,12 +33,14 @@ function signUp(){
         alert("Error",errorCode,":",errorMessage);
         // ...
     });
+    window.location = "index3.html";
     return false;
 }
 
 $("#GoogleIcon").click(
 function googleLogin(){
 
+    // console.log(href("index3.html"));
 
     var provider = new firebase.auth.GoogleAuthProvider();
     console.log(provider);
@@ -76,7 +78,8 @@ function googleLogin(){
         var credential = error.credential;// The firebase.auth.AuthCredential type that was used.
 
     });
+
+    window.location= "index3.html";
     console.log("Signed in with Google");
-    window.location= href("index3.html");
     return false;
 });
