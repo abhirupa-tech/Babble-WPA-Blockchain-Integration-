@@ -1,71 +1,82 @@
-[debug] [2018-07-01T11:29:10.095Z] ----------------------------------------------------------------------
-[debug] [2018-07-01T11:29:10.098Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
-[debug] [2018-07-01T11:29:10.098Z] CLI Version:   3.19.1
-[debug] [2018-07-01T11:29:10.098Z] Platform:      win32
-[debug] [2018-07-01T11:29:10.098Z] Node Version:  v9.8.0
-[debug] [2018-07-01T11:29:10.099Z] Time:          Sun Jul 01 2018 16:59:10 GMT+0530 (India Standard Time)
-[debug] [2018-07-01T11:29:10.099Z] ----------------------------------------------------------------------
+[debug] [2018-07-02T19:26:04.160Z] ----------------------------------------------------------------------
+[debug] [2018-07-02T19:26:04.163Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-07-02T19:26:04.163Z] CLI Version:   3.19.1
+[debug] [2018-07-02T19:26:04.163Z] Platform:      win32
+[debug] [2018-07-02T19:26:04.163Z] Node Version:  v9.8.0
+[debug] [2018-07-02T19:26:04.164Z] Time:          Tue Jul 03 2018 00:56:04 GMT+0530 (India Standard Time)
+[debug] [2018-07-02T19:26:04.164Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-07-01T11:29:10.110Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-07-01T11:29:10.110Z] > authorizing via signed-in user
-[debug] [2018-07-01T11:29:10.112Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-07-01T11:29:10.112Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+[debug] [2018-07-02T19:26:04.174Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-02T19:26:04.175Z] > authorizing via signed-in user
+[debug] [2018-07-02T19:26:04.176Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-02T19:26:04.176Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
  { refresh_token: '1/kfa9F3yIIrYEU1bPDncrHD2Yyv7iA5CrO-byOR66b3w',
   client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
   client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
   grant_type: 'refresh_token',
   scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Sun Jul 01 2018 16:59:10 GMT+0530 (India Standard Time)
-[debug] [2018-07-01T11:29:10.665Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-01T11:29:10.738Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/babble-login  
+ Tue Jul 03 2018 00:56:04 GMT+0530 (India Standard Time)
+[debug] [2018-07-02T19:26:04.676Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-02T19:26:04.718Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/babble-login  
   
- Sun Jul 01 2018 16:59:10 GMT+0530 (India Standard Time)
-[debug] [2018-07-01T11:29:12.265Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-01T11:29:12.270Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/babble-login/tokens  
+ Tue Jul 03 2018 00:56:04 GMT+0530 (India Standard Time)
+[debug] [2018-07-02T19:26:06.157Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-02T19:26:06.159Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/babble-login/tokens  
   
- Sun Jul 01 2018 16:59:12 GMT+0530 (India Standard Time)
-[debug] [2018-07-01T11:29:13.410Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-01T11:29:13.414Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/babble-login  
+ Tue Jul 03 2018 00:56:06 GMT+0530 (India Standard Time)
+[debug] [2018-07-02T19:26:07.319Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-02T19:26:07.324Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/babble-login  
   
- Sun Jul 01 2018 16:59:13 GMT+0530 (India Standard Time)
-[debug] [2018-07-01T11:29:15.157Z] <<< HTTP RESPONSE 200
+ Tue Jul 03 2018 00:56:07 GMT+0530 (India Standard Time)
+[debug] [2018-07-02T19:26:09.075Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from 'F:\WEB-DEV PROJECTS\IEEE PROJECTS\Babble-WPA-Blockchain-Integration-'...
 [info] 
-[debug] [2018-07-01T11:29:15.167Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/386415256208/clients/_:getWebAppConfig  
+[debug] [2018-07-02T19:26:09.086Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/386415256208/clients/_:getWebAppConfig  
   
- Sun Jul 01 2018 16:59:15 GMT+0530 (India Standard Time)
-[debug] [2018-07-01T11:29:16.257Z] <<< HTTP RESPONSE 200
+ Tue Jul 03 2018 00:56:09 GMT+0530 (India Standard Time)
+[debug] [2018-07-02T19:26:10.030Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: ./
 [info] +  hosting: Local server: http://localhost:5000
 
-[debug] [2018-07-02T11:24:30.288Z] ----------------------------------------------------------------------
-[debug] [2018-07-02T11:24:30.300Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase database:set / ../initial_messages.json
-[debug] [2018-07-02T11:24:30.302Z] CLI Version:   3.19.1
-[debug] [2018-07-02T11:24:30.302Z] Platform:      win32
-[debug] [2018-07-02T11:24:30.302Z] Node Version:  v9.8.0
-[debug] [2018-07-02T11:24:30.305Z] Time:          Mon Jul 02 2018 16:54:30 GMT+0530 (India Standard Time)
-[debug] [2018-07-02T11:24:30.305Z] ----------------------------------------------------------------------
-[debug] 
-[debug] [2018-07-02T11:24:30.388Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
-[debug] [2018-07-02T11:24:30.390Z] > authorizing via signed-in user
-[debug] [2018-07-02T11:24:30.399Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
-[debug] [2018-07-02T11:24:30.401Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
- { refresh_token: '1/kfa9F3yIIrYEU1bPDncrHD2Yyv7iA5CrO-byOR66b3w',
-  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
-  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
-  grant_type: 'refresh_token',
-  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
- Mon Jul 02 2018 16:54:30 GMT+0530 (India Standard Time)
-[debug] [2018-07-02T11:24:31.015Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-02T11:24:31.088Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/babble-login  
-  
- Mon Jul 02 2018 16:54:31 GMT+0530 (India Standard Time)
-[debug] [2018-07-02T11:24:32.712Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-02T11:24:32.715Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/babble-login/tokens  
-  
- Mon Jul 02 2018 16:54:32 GMT+0530 (India Standard Time)
-[debug] [2018-07-02T11:24:34.098Z] <<< HTTP RESPONSE 200
-[debug] [2018-07-02T11:24:54.057Z] Error: ENOENT: no such file or directory, open 'F:\WEB-DEV PROJECTS\IEEE PROJECTS\initial_messages.json'
+[debug] [2018-07-02T19:29:15.362Z] Error: socket hang up
+    at TLSSocket.onConnectEnd (_tls_wrap.js:1073:19)
+    at Object.onceWrapper (events.js:272:13)
+    at TLSSocket.emit (events.js:185:15)
+    at TLSSocket.emit (domain.js:421:20)
+    at endReadableNT (_stream_readable.js:1101:12)
+    at process._tickCallback (internal/process/next_tick.js:114:19)
 [error] 
 [error] Error: An unexpected error has occurred.
+[debug] [2018-07-02T19:29:33.420Z] ----------------------------------------------------------------------
+[debug] [2018-07-02T19:29:33.424Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-07-02T19:29:33.424Z] CLI Version:   3.19.1
+[debug] [2018-07-02T19:29:33.424Z] Platform:      win32
+[debug] [2018-07-02T19:29:33.424Z] Node Version:  v9.8.0
+[debug] [2018-07-02T19:29:33.425Z] Time:          Tue Jul 03 2018 00:59:33 GMT+0530 (India Standard Time)
+[debug] [2018-07-02T19:29:33.425Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-02T19:29:33.432Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-02T19:29:33.432Z] > authorizing via signed-in user
+[debug] [2018-07-02T19:29:33.432Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/babble-login  
+  
+ Tue Jul 03 2018 00:59:33 GMT+0530 (India Standard Time)
+[debug] [2018-07-02T19:29:34.902Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-02T19:29:34.902Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/babble-login/tokens  
+  
+ Tue Jul 03 2018 00:59:34 GMT+0530 (India Standard Time)
+[debug] [2018-07-02T19:29:36.093Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-02T19:29:36.093Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/babble-login  
+  
+ Tue Jul 03 2018 00:59:36 GMT+0530 (India Standard Time)
+[debug] [2018-07-02T19:29:37.866Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'F:\WEB-DEV PROJECTS\IEEE PROJECTS\Babble-WPA-Blockchain-Integration-'...
+[info] 
+[debug] [2018-07-02T19:29:37.875Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/386415256208/clients/_:getWebAppConfig  
+  
+ Tue Jul 03 2018 00:59:37 GMT+0530 (India Standard Time)
+[debug] [2018-07-02T19:29:38.740Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+

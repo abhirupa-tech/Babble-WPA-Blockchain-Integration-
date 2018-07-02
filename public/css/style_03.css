@@ -73,9 +73,9 @@ body {
 #submit{
     margin-top: 10px;
     display:block;
-    width:20%;
-    height:30px;
-    padding:2vh;
+    width:15%;
+    height:40px;
+    padding:0.3vh;
     border:1px solid black;
     border-radius: 20px;
     background-color: rgba(145, 154, 152, 0.1);
