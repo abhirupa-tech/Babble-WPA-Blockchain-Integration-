@@ -39,3 +39,33 @@
 [info] i  hosting: Serving hosting files from: ./
 [info] +  hosting: Local server: http://localhost:5000
 
+[debug] [2018-07-02T11:24:30.288Z] ----------------------------------------------------------------------
+[debug] [2018-07-02T11:24:30.300Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase database:set / ../initial_messages.json
+[debug] [2018-07-02T11:24:30.302Z] CLI Version:   3.19.1
+[debug] [2018-07-02T11:24:30.302Z] Platform:      win32
+[debug] [2018-07-02T11:24:30.302Z] Node Version:  v9.8.0
+[debug] [2018-07-02T11:24:30.305Z] Time:          Mon Jul 02 2018 16:54:30 GMT+0530 (India Standard Time)
+[debug] [2018-07-02T11:24:30.305Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-02T11:24:30.388Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-07-02T11:24:30.390Z] > authorizing via signed-in user
+[debug] [2018-07-02T11:24:30.399Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-02T11:24:30.401Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/kfa9F3yIIrYEU1bPDncrHD2Yyv7iA5CrO-byOR66b3w',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Jul 02 2018 16:54:30 GMT+0530 (India Standard Time)
+[debug] [2018-07-02T11:24:31.015Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-02T11:24:31.088Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/babble-login  
+  
+ Mon Jul 02 2018 16:54:31 GMT+0530 (India Standard Time)
+[debug] [2018-07-02T11:24:32.712Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-02T11:24:32.715Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/babble-login/tokens  
+  
+ Mon Jul 02 2018 16:54:32 GMT+0530 (India Standard Time)
+[debug] [2018-07-02T11:24:34.098Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-02T11:24:54.057Z] Error: ENOENT: no such file or directory, open 'F:\WEB-DEV PROJECTS\IEEE PROJECTS\initial_messages.json'
+[error] 
+[error] Error: An unexpected error has occurred.
