@@ -56,7 +56,11 @@
             <div id="messageBox">
 
                 <div id="messages">
-                    <span id="message-filler"> HEY ASSHOLE</span>
+                    <span id="message-filler">
+                        <div id="name"></div>
+                        <div id="text"></div>
+
+                    </span>
                 </div>
 
                 <form id="message-form" action="#">
@@ -82,6 +86,19 @@
 </div>
 
 <!--JS SCRIPTS-->
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script src="../public/javascripts/authLogin.js"></script>
+<script src="../public/javascripts/index.js"></script>
+
+<!--Fiebase scripts added after importing the Firebase SDK-->
+<script src="/__/firebase/5.1.0/firebase-app.js"></script>
+<script src="/__/firebase/5.1.0/firebase-auth.js"></script>
+<script src="/__/firebase/5.1.0/firebase-database.js"></script>
+<script src="/__/firebase/5.1.0/firebase-storage.js"></script>
+<script src="/__/firebase/5.1.0/firebase-messaging.js"></script>
+<script src="/__/firebase/init.js"></script>
+
+    <script src="../public/javascripts/main.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
