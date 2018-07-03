@@ -80,3 +80,35 @@
 [info] i  hosting: Serving hosting files from: ./
 [info] +  hosting: Local server: http://localhost:5000
 
+[debug] [2018-07-03T05:03:09.072Z] ----------------------------------------------------------------------
+[debug] [2018-07-03T05:03:09.075Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-07-03T05:03:09.075Z] CLI Version:   3.19.1
+[debug] [2018-07-03T05:03:09.075Z] Platform:      win32
+[debug] [2018-07-03T05:03:09.075Z] Node Version:  v9.8.0
+[debug] [2018-07-03T05:03:09.075Z] Time:          Tue Jul 03 2018 10:33:09 GMT+0530 (India Standard Time)
+[debug] [2018-07-03T05:03:09.075Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-03T05:03:09.086Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-03T05:03:09.087Z] > authorizing via signed-in user
+[debug] [2018-07-03T05:03:09.089Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/babble-login  
+  
+ Tue Jul 03 2018 10:33:09 GMT+0530 (India Standard Time)
+[debug] [2018-07-03T05:03:10.849Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-03T05:03:10.851Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/babble-login/tokens  
+  
+ Tue Jul 03 2018 10:33:10 GMT+0530 (India Standard Time)
+[debug] [2018-07-03T05:03:11.953Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-03T05:03:11.954Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/babble-login  
+  
+ Tue Jul 03 2018 10:33:11 GMT+0530 (India Standard Time)
+[debug] [2018-07-03T05:03:13.774Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'F:\WEB-DEV PROJECTS\IEEE PROJECTS\Babble-WPA-Blockchain-Integration-'...
+[info] 
+[debug] [2018-07-03T05:03:13.781Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/386415256208/clients/_:getWebAppConfig  
+  
+ Tue Jul 03 2018 10:33:13 GMT+0530 (India Standard Time)
+[debug] [2018-07-03T05:03:14.825Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
