@@ -9,8 +9,8 @@ function loadMessages(){
             var messageUser = childSnapshot.val().msg;
             var user = childSnapshot.val().name;
 
-            $("#name").append(user);
-            $("#text").append(messageUser);
+            $("#name").append(user+'</br>');
+            $("#text").append(messageUser+'</br>');
 
         });
     });

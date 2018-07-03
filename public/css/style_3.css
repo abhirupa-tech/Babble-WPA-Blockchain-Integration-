@@ -91,6 +91,7 @@ body {
     display: block;
 }
 
+
 /*Media queries*/
 @media only screen
 and (max-device-width : 700px)
