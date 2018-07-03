@@ -16,5 +16,25 @@ function loadMessages(){
     });
 
 }
+function saveMessage(messageText)
+{
+    console.log("saveMessage running");
+    console.log(firebase.auth().currentUser.displayName);
+    return firebase.database().ref('/messages/').push({
+        name:firebase.auth().currentUser.displayName,
+        msg:messageText
+
+    }).catch(function(error){
+        console.error ("Cannot write new messages to database");
+    });
+}
 
 loadMessages();
+ function readMessage(){
+         console.log("Submit clicked");
+         var messageText=$('#msg').val();
+         saveMessage(messageText);
+         $("#name").html("");
+         $("#text").html("");
+         loadMessages();
+ }
