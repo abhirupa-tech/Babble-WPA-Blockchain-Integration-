@@ -3,5 +3,6 @@
   "short_name": "Babble",
   "start_url": "/index.html",
   "display": "standalone",
-  "orientation": "landscape"
+  "orientation": "landscape",
+  "gcm_sender_id": "103953800507" //Server GCM  ID for Firebase CLoud Messaging
 }
