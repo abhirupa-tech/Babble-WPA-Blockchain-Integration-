@@ -153,3 +153,85 @@
 [info] i  hosting: Serving hosting files from: ./
 [info] +  hosting: Local server: http://localhost:5000
 
+[debug] [2018-07-04T10:43:51.743Z] ----------------------------------------------------------------------
+[debug] [2018-07-04T10:43:51.745Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-07-04T10:43:51.745Z] CLI Version:   3.19.1
+[debug] [2018-07-04T10:43:51.745Z] Platform:      win32
+[debug] [2018-07-04T10:43:51.745Z] Node Version:  v9.8.0
+[debug] [2018-07-04T10:43:51.746Z] Time:          Wed Jul 04 2018 16:13:51 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T10:43:51.746Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-04T10:43:51.766Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-04T10:43:51.766Z] > authorizing via signed-in user
+[debug] [2018-07-04T10:43:51.770Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-04T10:43:51.770Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/kfa9F3yIIrYEU1bPDncrHD2Yyv7iA5CrO-byOR66b3w',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Jul 04 2018 16:13:51 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T10:43:52.207Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-04T10:43:52.281Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/babble-login  
+  
+ Wed Jul 04 2018 16:13:52 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T10:43:53.867Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-04T10:43:53.870Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/babble-login/tokens  
+  
+ Wed Jul 04 2018 16:13:53 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T10:43:54.945Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-04T10:43:54.946Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/babble-login  
+  
+ Wed Jul 04 2018 16:13:54 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T10:43:56.819Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'F:\WEB-DEV PROJECTS\IEEE PROJECTS\Babble-WPA-Blockchain-Integration-'...
+[info] 
+[debug] [2018-07-04T10:43:56.825Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/386415256208/clients/_:getWebAppConfig  
+  
+ Wed Jul 04 2018 16:13:56 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T10:43:57.815Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-07-04T11:32:54.872Z] ----------------------------------------------------------------------
+[debug] [2018-07-04T11:32:54.874Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\hp\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-07-04T11:32:54.875Z] CLI Version:   3.19.1
+[debug] [2018-07-04T11:32:54.875Z] Platform:      win32
+[debug] [2018-07-04T11:32:54.875Z] Node Version:  v9.8.0
+[debug] [2018-07-04T11:32:54.875Z] Time:          Wed Jul 04 2018 17:02:54 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T11:32:54.875Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-04T11:32:54.886Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-04T11:32:54.886Z] > authorizing via signed-in user
+[debug] [2018-07-04T11:32:54.888Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-04T11:32:54.889Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/kfa9F3yIIrYEU1bPDncrHD2Yyv7iA5CrO-byOR66b3w',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Wed Jul 04 2018 17:02:54 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T11:32:55.374Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-04T11:32:55.425Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/babble-login  
+  
+ Wed Jul 04 2018 17:02:55 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T11:32:56.660Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-04T11:32:56.663Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/babble-login/tokens  
+  
+ Wed Jul 04 2018 17:02:56 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T11:32:57.888Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-04T11:32:57.892Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/babble-login  
+  
+ Wed Jul 04 2018 17:02:57 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T11:32:59.626Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'F:\WEB-DEV PROJECTS\IEEE PROJECTS\Babble-WPA-Blockchain-Integration-'...
+[info] 
+[debug] [2018-07-04T11:32:59.636Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/386415256208/clients/_:getWebAppConfig  
+  
+ Wed Jul 04 2018 17:02:59 GMT+0530 (India Standard Time)
+[debug] [2018-07-04T11:33:00.472Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: ./
+[info] +  hosting: Local server: http://localhost:5000
+

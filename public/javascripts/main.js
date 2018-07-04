@@ -1,3 +1,23 @@
+
+initFirebase = function() {
+    // Shortcuts to Firebase SDK features.
+    this.auth = firebase.auth();
+    this.database = firebase.database();
+    this.storage = firebase.storage();
+    this.messaging = firebase.messaging();
+
+    // Initiates Firebase auth and listen to auth state changes.
+    this.auth.onAuthStateChanged(this.authStateObserver.bind(this));
+};
+
+authStateObserver = function(user) {
+        this.saveMessagingDeviceToken();
+        console.log("Calling saveMesssagingDeviceToken");
+};
+
+
+
+
 function loadMessages(){
     console.log("loadMessages running");
     var userDataRef = firebase.database().ref("messages").orderByKey();
@@ -65,3 +85,6 @@ function requestNotificationsPermissions() {
         console.error('Unable to get permission to notify.', error);
     });
 };
+
+
+initFirebase();
