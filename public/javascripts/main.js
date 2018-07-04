@@ -38,3 +38,30 @@ loadMessages();
          $("#text").html("");
          loadMessages();
  }
+//Save FCM device token for notification
+ function saveMessagingDeviceToken(){
+     firebase.messaging().getToken().then(function(currentToken) {
+         if (currentToken) {
+             console.log('Got FCM device token:', currentToken);
+             // Saving the Device Token to the datastore.
+             firebase.database().ref('/fcmTokens').child(currentToken)
+                 .set(firebase.auth().currentUser.uid);
+         } else {
+             // Need to request permissions to show notifications.
+             requestNotificationsPermissions();
+         }
+     }).catch(function(error){
+         console.error('Unable to get messaging token.', error);
+     });
+ };
+
+ //Request action for Notification Permission
+function requestNotificationsPermissions() {
+    console.log('Requesting notifications permission...');
+    firebase.messaging().requestPermission().then(function() {
+        // Notification permission granted.
+        saveMessagingDeviceToken();
+    }).catch(function(error) {
+        console.error('Unable to get permission to notify.', error);
+    });
+};
